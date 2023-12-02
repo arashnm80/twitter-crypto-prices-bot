@@ -27,13 +27,6 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
 
-
-    # - shell: bash
-    #   env:
-    #     COINMARKETCAP_TOKEN: ${{ secrets.COINMARKETCAP_TOKEN }}
-    #   run: |
-    #     echo "$COINMARKETCAP_TOKEN"
-
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
