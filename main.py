@@ -1,6 +1,7 @@
 from functions import *
 
 if __name__ == "__main__":
+    print("debug")
     tweet_text = get_tweet_text()
     print(tweet_text)
     if len(tweet_text) > 280:
