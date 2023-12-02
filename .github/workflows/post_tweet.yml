@@ -6,7 +6,7 @@ on:
     - cron: '0 * * * *'
 
 jobs:
-  fetch-and-write:
+  get-prices-and-post-tweet:
     runs-on: ubuntu-latest
     
     permissions:
